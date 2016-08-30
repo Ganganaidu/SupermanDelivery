@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Snap Dash</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Navigation view items-->
+    <string name="nav_home">HOME</string>
+    <string name="nav_track">TRACK</string>
+    <string name="nav_save_address">FAVOURITES</string>
+    <string name="nav_rate_card">RATE CARD</string>
+    <string name="nav_services">SERVICES</string>
+    <string name="nav_share">SHARE</string>
+    <string name="nav_contact">CONTACT US</string>
+    <string name="nav_rateus">RATE US</string>
+    <string name="nav_tutorials">TUTORIALS</string>
+    <string name="nav_logout">LOGOUT</string>
+    <string name="nav_login">LOGIN</string>
+
+    <!--track-->
+    <string name="scheduled">SCHEDULED</string>
+    <string name="intransit">INTRANSIT</string>
+    <string name="completed">COMPLETED</string>
+    <string name="cancelled">CANCELLED</string>
+    <string name="track_id">Tracking ID: CODE</string>
+    <string name="date">DATE</string>
+    <string name="req_rec">CONFIRMED</string>
+
+    <!--service-->
+    <string name="errands">ERRANDS</string>
+    <string name="others">OTHERS</string>
+    <string name="delivering_docs">DELIVERING DOCUMENTS</string>
+    <string name="delivering_gifts">DELIVERING GIFTS</string>
+    <string name="delivering_files">DELIVERING FILES</string>
+
+    <string name="set_pickup_location">SET PICKUP LOCATION</string>
+    <string name="current_location">Your Current Location</string>
+    <string name="destination_required">DESTINATION REQUIRED</string>
+    <string name="drop_location">DROPOFF LOCATION</string>
+    <string name="fav_location">FAVOURITE LOCATION</string>
+    <string name="GPSAlertDialogTitle">Location</string>
+    <string name="GPSAlertDialogMessage">Location Services not available</string>
+    <string name="book_now_button">BOOK NOW</string>
+    <string name="continue_button">Continue</string>
+    <string name="pickup_drop_button">PICKUP AND DROP</string>
+    <string name="pickup_drop_and">PICKUP &amp; DROP</string>
+    <string name="purchase_button">PURCHASE</string>
+    <string name="cost_estimate">COST ESTIMATE</string>
+    <string name="promo_code">PROMO CODE</string>
+    <string name="price_details">PRICE DETAILS</string>
+    <string name="minimum_charge">MINIMUM CHARGE: RS.50</string>
+    <string name="allowed_weight">ALLOWED WEIGHT: 10KGS</string>
+    <string name="set_address_button">SAVE</string>
+
+
+    <!--Google server api key for directions-->
+    <string name="google_api_server_key">AIzaSyDs5_j2Wwfr-Zj5OqJO5Fww7EMjiFvCPzk</string>
+    <string name="google_api_server_key1">AIzaSyBkOKvB7NxFvDXLkZsjMpJC1pIdr0ZDf2s</string>
+
+    <!--Google MAP api-->
+    <string name="google_api_key">AIzaSyBAdqm6hfvZ9zeuLijBfMv8YEr9MwOHre8</string>
+    <string name="google_api_key1">AIzaSyANkWTZboBos0iz0CSwHprAysQpeskxyKE</string>
+
+    <!--OTP -->
+    <string name="otp_message">Superman Delivers will send a one time SMS message to verify your
+        phone number
+    </string>
+    <string name="otp_confirm_message">The OTP verification code has been sent via sms to yourphone,
+        please enter it below
+    </string>
+    <string name="confirm">CONFIRM</string>
+    <string name="continues">CONTINUE</string>
+    <string name="resend_sms">RESEND SMS</string>
+    <string name="verification_confirm">ENTER VERIFICATION CODE</string>
+
+    <!--Profile-->
+    <string name="my_profile">My Profile</string>
+    <string name="search">Search</string>
+    <string name="favourites">Favourites</string>
+    <string name="destination_address">DESTINATION ADDRESS</string>
+    <string name="favourite_address">ADDRESS</string>
+    <string name="pickup_address">PICK-UP ADDRESS</string>
+    <string name="mail">Email</string>
+    <string name="update">UPDATE INFO</string>
+
+    <string name="drop_your_pin">Drop your pin</string>
+    <string name="select_location">Please select a location</string>
+    <string name="done">DONE</string>
+    <string name="apply">APPLY</string>
+    <string name="ok">OK</string>
+
+    <!--Confirmation activity-->
+    <string name="SET">SET</string>
+    <string name="address">ADDRESS</string>
+    <string name="pay_at_pickup">Pay 100-200 at pickup</string>
+    <string name="pay_at_drop">Pay 100-200 at drop</string>
+    <string name="wen_like_delivery">when would you like your delivery?</string>
+    <string name="NOW">NOW</string>
+    <string name="time">TIME</string>
+    <string name="collect_charges">
+        <b>COLLECT DELIVERY CHARGES FROM</b>
+    </string>
+    <string name="delivery">Delivery</string>
+    <string name="drop">DROP</string>
+    <string name="cost_bfr">Rs.00</string>
+    <string name="bfr_disc">COST BEFORE COUPON DISCOUNT</string>
+    <string name="cost">Rs.00</string>
+    <string name="disc">COUPON DISCOUNT</string>
+    <string name="aftr_disc">COST AFTER COUPON DISCOUNT</string>
+    <string name="cost_aftr">Rs.00</string>
+    <string name="delivery_location">
+        <b>DROP LOCATION</b>
+    </string>
+    <string name="pickup_location">
+        <b>PICKUP LOCATION</b>
+    </string>
+
+    <!--add address-->
+    <string name="flat_build_num">FlatNo. and Building No.</string>
+    <string name="instructions">INSTRUCTIONS</string>
+
+
+    <!--NetWork-->
+    <string name="generic_server_down">Server down</string>
+    <string name="no_internet">No Internet connection</string>
+    <string name="generic_error">Generic error try again</string>
+    <string name="promo_hint">Promo Code</string>
+    <string name="cancel">CANCEL</string>
+
+    <!-- Pick up description page-->
+    <string name="phone_number">Phone Number</string>
+    <string name="phone">PHONE</string>
+    <string name="complete_address_hint">\u0020\u0020Complete Address</string>
+    <string name="flat_hint">\u0020\u0020Flat No. and Building No.</string>
+    <string name="name">Name</string>
+    <string name="pickup_instructions">\u0020\u0020PickUp Instructions</string>
+    <string name="next">NEXT</string>
+    <string name="pickup_description_title">Pick-up</string>
+    <string name="purchase_description_title">Purchase</string>
+    <string name="deliver_description_title">Drop</string>
+    <string name="pick_item_desc">PICK ITEM DESCRIPTION</string>
+    <string name="amount_topay">Amount to be paid(Estimate)</string>
+    <string name="add_to_fav">ADD TO FAVOURITE</string>
+    <string name="what_item_do">WHAT ITEM DO YOU WANT TO BE PICKED UP?</string>
+
+
+    <!--Pickup Price Range dialog-->
+    <string-array name="pickup_ranges">
+        <item>RS 100-500</item>
+        <item>RS 500-1000</item>
+        <item>RS 1000-2000</item>
+        <item>Above RS 2000</item>
+    </string-array>
+
+    <!-- Pickup description dialog-->
+    <string-array name="pickup_description_types">
+        <item>Clothes</item>
+        <item>Documents</item>
+        <item>Foods</item>
+        <item>Books</item>
+        <item>Electronics</item>
+    </string-array>
+    <string name="item_description_text">What Item do you want to be picked up?</string>
+    <string name="instructions_dialog">Instructions</string>
+
+    <!-- Activity titles-->
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="title_activity_order_receipt">Order receipt</string>
+    <string name="pickUp">Pickup</string>
+    <!-- -->
+
+    <string name="order_receipt_success_text">YOUR ORDER HAS BEEN PLACED SUCCESSFULLY.</string>
+    <string name="your_order_ID">YOUR ORDER ID IS :</string>
+    <string name="order_receipt_thanks_tex">THANK YOU FOR USING SUPERMAN DELIEVRS</string>
+    <string name="order_receipt_nice_day">HAVE A NICE DAY!</string>
+
+    <string name="add_address">Add Address</string>
+    <string name="purchase_item_desc">PURCHASE ITEM DESCRIPTION</string>
+
+    <!--parcel tracking-->
+    <string name="pickup_from_name">PICKED UP</string>
+    <string name="deliver_to_set">DELIVERED</string>
+    <string name="req_rec2">REQUESTED</string>
+    <string name="confirmed">CONFIRMED</string>
+    <string name="cancel_trip">CANCEL TRIP</string>
+    <string name="order_receipt">ORDER RECEIPT</string>
+    <string name="parcel_tracking">PARCEL TRACKING</string>
+
+    <string name="gcm_senderId">305349726986</string>
+    <string name="gcm_serverapi_key">AIzaSyDs5_j2Wwfr-Zj5OqJO5Fww7EMjiFvCPzk</string>
+
+    <!--Contact US-->
+    <string name="contact_call">CALL</string>
+    <string name="contact_facebook">FACEBOOK</string>
+    <string name="contact_email">EMAIL</string>
+    <string name="contact_whatsapp">WHATSAPP</string>
+    <string name="contact_website">WEBSITE</string>
+
+
+    <!--Rate Card-->
+    <string name="standard_rate">STANDARD RATE</string>
+    <string name="first_5km">FIRST 5 KM</string>
+    <string name="after_5km">AFTER 5 KM</string>
+    <string name="rs50">RS.50</string>
+    <string name="rs10">RS.10 PER KM</string>
+
+    <string name="extra_charges">EXTRA CHARGES</string>
+    <string name="extra_waiting_time">EXTRA WAITING TIME</string>
+    <string name="extra_weight">EXTRA WEIGHT</string>
+    <string name="extra_assistance">EXTRA ASSISTANCE</string>
+    <string name="two_way">TWO WAY</string>
+    <string name="service_tax">SERVICE TAX</string>
+
+    <string name="free_first_10min">FIRST 10 MINUTES IS FREE</string>
+    <string name="free_first_10kg">10 KG IS FREE (MAX 20KG) </string>
+    <string name="additional_person">ADDITIONAL PERSON</string>
+    <string name="pickup_drop_return">PICKUP, DROP AND RETURN</string>
+    <string name="payable_in_addition">IS PAYABLE IN ADDITION DELIVERY CHARGE</string>
+
+    <string name="rs30">RS.30</string>
+    <string name="x2">2X</string>
+    <string name="every_20min">EVERY 20 MINUTES</string>
+    <string name="plus_10kg">PLUS 10 KG</string>
+    <string name="delivery_charge">DELIVERY CHARGE</string>
+    <string name="profile">PROFILE</string>
+    <string name="delivery_charges_collected_from">DELIVERY CHARGE TO BE COLLECTED FROM :</string>
+    <string name="delivery_type">DELIVERY TYPE:</string>
+
+    <string name="location">Location</string>
+    <string name="location_desc">Location permission is needed to display your current location, would you like to reconsider?</string>
+
+    <string name="contacts">Contacts</string>
+    <string name="contacts_des">Contacts permission is needed to list of contacts in your phone, would you like to reconsider?</string>
+
+</resources>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_very_light"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_actionbar_title_layout" />
+
+
+    <!--Map search places-->
+    <RelativeLayout
+        android:id="@+id/location_search_activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/place_autocomplete_fragment"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:src="@drawable/saved_highlight" />
+
+    </RelativeLayout>
+
+
+    <!--Recent/Favourites Layout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Recent Layout-->
+        <LinearLayout
+            android:id="@+id/recently_used_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.supermandelivery.Fonts.TextViewNormal
+                android:id="@+id/recently_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:text="Recently Used"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/darkBlue" />
+
+            <ListView
+                android:id="@+id/recently_used_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recently_used" />
+        </LinearLayout>
+
+        <!--Favourite Layout-->
+        <LinearLayout
+            android:id="@+id/favourite_address_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.supermandelivery.Fonts.TextViewNormal
+                android:id="@+id/favourite_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/favourites"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/darkBlue" />
+
+            <ListView
+                android:id="@+id/favourites_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_actionbar_title_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/pickup_location"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/confirmation_border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="visible">
+                <!--Pick up titles-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="2dp"
+                        android:text="@string/name"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="2dp"
+                        android:text="@string/phone"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                </LinearLayout>
+
+                <!--Pick up values-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:id="@+id/pickup_name_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="2dp"
+                        android:text="@string/name"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/gray_dark"
+                        android:textStyle="bold" />
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:id="@+id/pickup_num_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:maxLines="2"
+                        android:padding="2dp"
+                        android:text="@string/phone"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/gray_dark"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--Pick up address-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/address"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:id="@+id/pickup_address_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        android:maxLines="2"
+                        android:padding="2dp"
+                        android:text="@string/address"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/gray_dark"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:id="@+id/pay_pickup_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/pay_at_pickup"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/delivery_location"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/confirmation_border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="visible">
+
+                <!--Pick up titles-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="2dp"
+                        android:text="@string/name"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="2dp"
+                        android:text="@string/phone"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                </LinearLayout>
+
+                <!--Pick up values-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:id="@+id/delivery_name_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="2dp"
+                        android:text="@string/name"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/gray_dark"
+                        android:textStyle="bold" />
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:id="@+id/deliver_num_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:maxLines="2"
+                        android:padding="2dp"
+                        android:text="@string/phone"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/gray_dark"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--Pick up address-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="@string/address"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <com.supermandelivery.Fonts.TextViewNormal
+                        android:id="@+id/delivery_address_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        android:maxLines="2"
+                        android:padding="2dp"
+                        android:text="@string/address"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/gray_dark"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:id="@+id/pay_drop_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/pay_at_drop"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:id="@+id/delvry_time_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/delivery"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <!--calender layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.supermandelivery.Fonts.ButtonViewBold
+                    android:id="@+id/current_date_textView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner_white_bg"
+                    android:gravity="center"
+                    android:text="@string/NOW"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/darkBlue"
+                    android:textStyle="bold" />
+
+                <com.supermandelivery.Fonts.ButtonViewBold
+                    android:id="@+id/current_time_textView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner_white_bg"
+                    android:text="1:00PM"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/darkBlue"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:id="@+id/collect_delivery_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/collect_charges"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <!--Collect layout-->
+            <LinearLayout
+                android:id="@+id/collect_delivery_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/pickup_imgBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:background="@drawable/rbtn_selector"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="@string/pickUp"
+                        android:textColor="@drawable/rbtn_textcolor_selector"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/delivery_imgbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:background="@drawable/rbtn_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/drop"
+                        android:textColor="@drawable/rbtn_textcolor_selector"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--fare details-->
+            <LinearLayout
+                android:id="@+id/delivery_charges_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <com.supermandelivery.Fonts.TextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="@string/delivery_charge"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.supermandelivery.Fonts.TextViewBold
+                    android:id="@+id/deliver_charges_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="@string/cost_bfr"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/darkBlue"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <com.supermandelivery.Fonts.ButtonViewBold
+                android:id="@+id/confirmation_continue_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_corner_button"
+                android:text="@string/confirm"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

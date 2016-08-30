@@ -1,0 +1,365 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Food"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Groceries"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Medicines"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Electronics"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Cakes &amp; Sweets"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Ice Cream &amp; Desserts"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Home &amp; Office Supplies"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Stationary"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Sports Equipment"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Electrical Devices"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Clothes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Movie &amp; Event Tickets"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Coffee &amp; Shakes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Cosmetics"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Party Decorations &amp; Props"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Flowers &amp; Bouquets"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Fruits &amp; Vegetables"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Hardware &amp; Tools"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Toys &amp; Games"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Printing Material"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Travel Tickets"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Party Requirements"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Other Midnight Requirements"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

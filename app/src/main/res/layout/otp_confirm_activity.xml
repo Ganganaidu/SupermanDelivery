@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.supermandelivery.Fonts.TextViewNormal
+        android:id="@+id/dummy_space_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/msg_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/dummy_space_textview"
+        android:layout_toStartOf="@+id/dummy_space_textview"
+        android:src="@drawable/msg" />
+
+    <ImageView
+        android:id="@+id/logo_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/dummy_space_textview"
+        android:layout_toRightOf="@+id/dummy_space_textview"
+        android:src="@drawable/small_phone" />
+
+    <com.supermandelivery.Fonts.TextViewNormal
+        android:id="@+id/otp_verify_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:lines="3"
+        android:padding="5dp"
+        android:text="@string/otp_confirm_message"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vcode_hint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp_verify_textView">
+
+        <com.supermandelivery.Fonts.EditTextNormal
+            android:id="@+id/vcode_editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:hint="@string/verification_confirm"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <com.supermandelivery.Fonts.ButtonViewNormal
+        android:id="@+id/resend_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vcode_hint_layout"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_pressed_gray"
+        android:padding="10dp"
+        android:text="@string/resend_sms"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/darkBlue" />
+
+    <com.supermandelivery.Fonts.ButtonViewNormal
+        android:id="@+id/otpConfirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_pressed_blue"
+        android:padding="5dp"
+        android:text="@string/confirm"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

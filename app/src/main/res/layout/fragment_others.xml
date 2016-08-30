@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Bulk Deliveries"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Daily Deliveries"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Festival Gifts Distribution"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Marketing Distributions"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Delivering for Home Bakers"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Deliveries for all Businesses"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+            <com.supermandelivery.Fonts.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="E-commerce Deliveries"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkBlue"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

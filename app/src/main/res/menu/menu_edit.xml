@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activites.AddAddressActivity">
+
+    <!-- "Save", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/edit"
+        app:showAsAction="ifRoom"
+        android:title="@string/done"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+</menu>

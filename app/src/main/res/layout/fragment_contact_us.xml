@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.supermandelivery.Fonts.TextViewBold
+        android:id="@+id/contact_callID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/contact_call"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold" />
+
+    <com.supermandelivery.Fonts.TextViewBold
+        android:id="@+id/contact_facebookID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/contact_facebook"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold" />
+
+    <com.supermandelivery.Fonts.TextViewBold
+        android:id="@+id/contact_emailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/contact_email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold" />
+
+    <com.supermandelivery.Fonts.TextViewBold
+        android:id="@+id/contact_whatsappID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/contact_whatsapp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold" />
+
+    <com.supermandelivery.Fonts.TextViewBold
+        android:id="@+id/contact_websiteID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/contact_website"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

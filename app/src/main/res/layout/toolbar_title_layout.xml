@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.supermandelivery.Fonts.TextViewBold xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Medium Text"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/darkBlue"
+    android:textStyle="bold">
+
+
+</com.supermandelivery.Fonts.TextViewBold>

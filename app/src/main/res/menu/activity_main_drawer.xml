@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/nav_home"
+        android:icon="@drawable/menu_home"
+        />
+    <item
+        android:id="@+id/nav_track"
+        android:icon="@drawable/menu_track"
+        android:title="@string/nav_track" />
+    <item
+        android:id="@+id/nav_save_address"
+        android:icon="@drawable/menu_favourite"
+        android:title="@string/nav_save_address" />
+    <item
+        android:id="@+id/nav_ratecard"
+        android:icon="@drawable/menu_rate_card"
+        android:title="@string/nav_rate_card" />
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@drawable/menu_services"
+        android:title="@string/nav_services" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/menu_share"
+        android:title="@string/nav_share" />
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/menu_contact_us"
+        android:title="@string/nav_contact" />
+    <item
+        android:id="@+id/nav_rate_us"
+        android:icon="@drawable/menu_rate_us"
+        android:title="@string/nav_rateus" />
+
+    <item
+        android:id="@+id/nav_tutorials"
+        android:icon="@drawable/menu_rate_us"
+        android:title="@string/nav_tutorials" />
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/menu_logout"
+        android:title="@string/nav_login" />
+
+</menu>

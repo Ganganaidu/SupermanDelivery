@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_very_light"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_actionbar_title_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                card_view:cardBackgroundColor="@color/darkBlue"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardUseCompatPadding="true">
+
+                <com.supermandelivery.Fonts.TextViewBold
+                    android:id="@+id/tracking_id_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:text="@string/name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/white"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/request_tick_imgBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:src="@drawable/tick" />
+
+                        <ImageView
+                            android:id="@+id/requset_status_line_imageview"
+                            android:layout_width="1dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/gray_lighter" />
+
+                        <ImageButton
+                            android:id="@+id/confirmed_tick_imgBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:src="@drawable/untick" />
+
+                        <ImageView
+                            android:id="@+id/confirmed_status_line_imageview"
+                            android:layout_width="1dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/gray_lighter" />
+
+                        <ImageButton
+                            android:id="@+id/pick_tick_imgBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:src="@drawable/untick" />
+
+                        <ImageView
+                            android:id="@+id/pickup_status_line_imageview"
+                            android:layout_width="1dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/gray_lighter" />
+
+                        <ImageButton
+                            android:id="@+id/deliver_tick_imgBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:src="@drawable/untick" />
+
+                        <ImageView
+                            android:id="@+id/deliver_status_line_imageview"
+                            android:layout_width="1dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/gray_lighter" />
+
+                        <ImageButton
+                            android:id="@+id/completed_tick_imgBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:src="@drawable/untick" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:maxLines="1"
+                            android:text="@string/req_rec2"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/darkBlue" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/request_time_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColor="@android:color/black" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+                        <!--android:id="@+id/delivery_status_line_imageview"-->
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/confirmed_status_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:maxLines="1"
+                            android:text="@string/confirmed"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/black" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/confirmed_time_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColor="@android:color/black" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/track_user_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/pickup_from_name"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/black" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/puckup_time_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColor="@android:color/black" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/track_delivered_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/deliver_to_set"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/black" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/deliver_time_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColor="@android:color/black" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/completed_status_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/completed"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/black" />
+
+                        <com.supermandelivery.Fonts.TextViewNormal
+                            android:id="@+id/completed_time_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="@string/delivery_type"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/darkBlue"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/deliver_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="@string/app_name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/darkBlue"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/deliver_charges_collect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:maxLines="2"
+                    android:padding="5dp"
+                    android:text="@string/delivery_charges_collected_from"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/darkBlue"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/total_deliver_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_pressed_blue"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="@string/app_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
